@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!env sh
 
 FILES=$(zig fmt "$@")
 echo "$FILES"
